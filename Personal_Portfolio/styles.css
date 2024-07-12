@@ -1,0 +1,65 @@
+/* Add a media query for smaller screens */
+@media screen and (max-width: 600px) {
+    /* Adjust styles for smaller screens as needed */
+}
+
+/* Set the height of the welcome section to be equal to the viewport height */
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f0f0f0; /* Add your background color */
+}
+
+/* Style the navbar */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Add your navbar background color */
+    color: #fff; /* Add your navbar text color */
+    z-index: 1000; /* Ensure the navbar is above other elements */
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #fff; /* Add your navbar link color */
+}
+
+/* Style the projects section */
+#projects {
+    padding: 20px;
+    margin-top: 60px; /* Ensure the content below the navbar is not hidden */
+}
+
+.project-tile {
+    border: 1px solid #ccc; /* Add your project tile border color */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-tile a {
+    text-decoration: none;
+    color: #333; /* Add your project link color */
+}
+
+/* Style the profile link */
+#profile-link {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Add your profile link background color */
+    color: #fff; /* Add your profile link text color */
+    text-decoration: none;
+    margin-top: 20px;
+}
